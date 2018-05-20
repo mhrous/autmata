@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Show DFA</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/jquery-3.2.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Sweet Alert -->
+  <script src="js/sweetalert.js"></script>
+  <link rel="stylesheet" href="css/sweetalert.css">
+  <script src="js/vis.js"></script>
+  <script src="./MYJS/automata.js"></script>
+  <script src="./MYJS/API.js"></script>
+  <script src="./MYJS/showDFA.js"></script>
+  <link rel="stylesheet" href="./MYCSS/main.css">
+
+  <link rel="stylesheet" href="./MYCSS/showDFA.css">
+</head>
+
+<body>
+
+  <table class="state-test-container ">
+    <tr>
+      <th>state</th>
+      <th id="state"> </th>
+    </tr>
+    <tr>
+      <th>char</th>
+      <th id="char"> </th>
+    </tr>
+    <tr>
+      <th>index</th>
+      <th id="index"> </th>
+    </tr>
+  </table>
+
+  <ul class="nav nav-tabs">
+    <li role="presentation">
+      <a href="./addDFA.html">Add DFA</a>
+    </li>
+    <li role="presentation" class="active">
+      <a href="#">Show DFA</a>
+    </li>
+    <li role="presentation">
+      <a href="./phpDFA.html">Php DFA</a>
+    </li>
+  </ul>
+
+  <div class="container show-page">
+
+    <div class="row">
+      <div class="col-md-3  one">
+        <ul class="list-group">
+
+        </ul>
+      </div>
+      <div class="col-md-9  tow">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-4">
+            <input type="text" placeholder="Enter Your String" class="form-control ">
+          </div>
+          <div class="col-md-2 p-l-0">
+            <button class="btn btn-success pc disabled ">test String</button>
+          </div>
+
+        </div>
+        <div class="row drow-content">
+          <div id="drow"></div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

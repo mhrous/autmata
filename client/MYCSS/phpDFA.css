@@ -1,0 +1,33 @@
+.show-page {
+  margin: 40px auto;
+  height: 1200px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
+.pc {
+  width: 100%;
+}
+.drow-content {
+  height: 1100px;
+  padding: 10px;
+}
+#drow {
+  height: 100%;
+}
+#dead-node {
+  position: absolute;
+  left: 1100px;
+  top: 690px;
+  padding: 10px;
+  border-radius: 20px;
+  background: #262626;
+  color: #fff;
+}
+.state-test-container {
+  left: 100px;
+}
+#state {
+  width: 200px;
+}

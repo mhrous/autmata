@@ -1,0 +1,30 @@
+.p-l-0 {
+  padding-left: 0;
+}
+.one {
+  height: 500px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+#drow {
+  height: 100%;
+}
+.drow-content {
+  height: calc(100% - 50px);
+  margin-top: 10px;
+}
+.tow {
+  height: 500px;
+  padding: 10px;
+  margin-top: 1%;
+  width: 74%;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.show-page {
+  margin-top: 40px;
+  height: 520px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}

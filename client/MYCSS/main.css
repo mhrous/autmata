@@ -1,0 +1,79 @@
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: 120px;
+  height: 120px;
+}
+
+.loader span {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+  animation: animate 2s linear infinite;
+}
+
+.loader span:nth-child(1) {
+  animation-delay: 0s;
+  background: #fd3f39;
+}
+
+.loader span:nth-child(2) {
+  animation-delay: -0.667s;
+  background: #ffcb2f;
+}
+
+.loader span:nth-child(3) {
+  animation-delay: -1.33s;
+  background: #53d86a;
+}
+
+@keyframes animate {
+  87.5%,
+  100%,
+  0% {
+    top: 0;
+    left: 0;
+  }
+
+  12.5%,
+  25% {
+    top: 0;
+    left: 50%;
+  }
+
+  37.5%,
+  50% {
+    top: 50%;
+    left: 50%;
+  }
+
+  62.5%,
+  75% {
+    top: 50%;
+    left: 0%;
+  }
+}
+body {
+  background-color: #cfd8dc;
+}
+
+.nav {
+  background-color: #ecf0f1;
+}
+table {
+  position: absolute;
+  position: absolute;
+  top: 110px;
+  left: 30vw;
+  z-index: 100;
+}
+
+th {
+  width: 50px;
+}
+.active-dfa{
+  background: rgba(0,0,0,0.05)
+}

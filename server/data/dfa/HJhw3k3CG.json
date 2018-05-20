@@ -1,0 +1,66 @@
+{
+  "dfa": {
+    "nodes": [
+      {
+        "start": true,
+        "label": "q0"
+      },
+      {
+        "label": "q1"
+      },
+      {
+        "label": "q2",
+        "end": true
+      },
+      {
+        "label": "T"
+      }
+    ],
+    "edges": [
+      {
+        "to": "q1",
+        "from": "q0",
+        "state": "0"
+      },
+      {
+        "to": "T",
+        "from": "q0",
+        "state": "1"
+      },
+      {
+        "to": "T",
+        "from": "q1",
+        "state": "0"
+      },
+      {
+        "to": "q2",
+        "from": "q1",
+        "state": "1"
+      },
+      {
+        "to": "q2",
+        "from": "q2",
+        "state": "0"
+      },
+      {
+        "to": "q2",
+        "from": "q2",
+        "state": "1"
+      },
+      {
+        "to": "T",
+        "from": "T",
+        "state": "0"
+      },
+      {
+        "to": "T",
+        "from": "T",
+        "state": "1"
+      }
+    ],
+    "alphabetObj": [
+      "0",
+      "1"
+    ]
+  }
+}

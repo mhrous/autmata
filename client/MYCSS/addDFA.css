@@ -1,0 +1,42 @@
+
+.add-name-dfa,
+.add-state-dfa,
+.add-transitions-dfa {
+  margin-top: 40px;
+}
+.add-p-footer {
+  height: 50px;
+}
+.row {
+  margin-bottom: 10px;
+}
+
+.m-t-12 {
+  margin-top: 12px;
+}
+.add-input {
+  font-size: 300%;
+  color: #18bc9c;
+  margin: 11px 50%;
+  display: inline-block;
+  text-align: center;
+}
+.add-p-body {
+  padding: 20px 40px;
+}
+.remove-input {
+  font-size: 200%;
+  color: #18bc9c;
+  margin-top: 10px;
+}
+.btn-next {
+  float: right;
+  background-color: #18bc9c;
+  border-radius: 20px;
+  border: none;
+  color: #ffffff;
+  padding: 3px 15px;
+}
+.hide {
+  display: none;
+}
